@@ -1,23 +1,25 @@
 <?php
 $persona1 = [
-"nombre" => "Daniel"
+  "nombre" => "Daniel"
 ];
 
 $persona2 =[
   "nombre"=>"jesus"
-  ];
+];
 
 $persona3 =[
   "nombre"=>"denisse"
-  ];
+];
 
-
-
+$persona4 = [
+  "nombre" => "Luis"
+];
 
 $personas = [
-$persona1,
+  $persona1,
   $persona2,
-  $persona3
+  $persona3,
+  $persona4
 ];
 
 echo json_encode($personas);
